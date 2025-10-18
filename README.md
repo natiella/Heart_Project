@@ -19,7 +19,7 @@ pip install -r base.txt
 ```
 heart-attack-predictor/
 ├── notebooks/               # Jupyter Notebook с исследованием и обучением
-│   └── research.ipynb
+│   └── Heart_Project.ipynb
 ├── src/                     # Production-код (ООП)
 │   ├── __init__.py
 │   ├── preprocessor.py      # Класс DataPreprocessor
@@ -34,7 +34,7 @@ heart-attack-predictor/
 ```
 
 > ⚠️ **Важно**:  
-> - В `notebooks/research.ipynb` содержится **только исследование**, обучение и выводы.  
+> - В `notebooks/Heart_Project.ipynb` содержится **только исследование**, обучение и выводы.  
 > - **Весь production-код вынесен в `src/`** и импортируется как модуль.  
 > - Признаки `Blood sugar`, `CK-MB`, `Troponin` удалены как **косвенные утечки** (измеряются после приступа).
 
